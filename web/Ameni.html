@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Administrator</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/admin.js"></script>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+<body>
+	<div id="adminmeni">
+		<li class="opcijameni" id="akor">Korisnici</li>
+		<li class="opcijameni" id="akat">Kategorije</li>
+		<li class="opcijameni" id="afilm">Filmovi</li>
+		<li class="opcijameni" id="apr">Profil</li>
+		<li class="opcijameni" id="aod">Odjava</li>
+		<ul class="apmeni" id="uitkor">
+			<li  class="ppmeni" id="dtkor">Dodaj</li>
+			<li class="ppmeni" id="ikor">Izmeni</li>
+			<li  class="ppmeni" id="okor">Obrisi</li>
+		</ul>
+		
+		<ul class="apmeni" id="uikat">
+			<li class="ppmeni" id="dkat">Dodaj</li>
+			<li class="ppmeni" id="ikat">Izmeni</li>
+			<li class="ppmeni" id="okat">Obrisi</li>
+		</ul>
+		<ul class="apmeni" id="uifilm">
+			<li class="ppmeni" id="dfilm">Dodaj</li>
+			<li class="ppmeni" id="ifilm">Izmeni</li>
+			<li class="ppmeni" id="ofi">Obrisi</li>
+		</ul>
+		<ul class="menjanje" id="korisnik">
+		</ul>
+		<ul class="menjanje" id="okorisnik">
+		</ul>
+		<ul class="menjanje" id="kategorija">
+		</ul>
+		<ul class="menjanje" id="okategorija">
+		</ul>
+		<ul class="menjanje" id="film">
+		</ul>
+		<ul class="menjanje" id="ofilm">
+		</ul>
+	</div>
+	<table id="tkoris" class="table">
+		<tr>
+			<th>Ime</th>
+			<th>Prezime</th> 
+			<th>Korisnicko ime</th>  
+			<th>Sifra</th>
+			<th>tip</th>
+		</tr>
+	</table>
+	<table id="tkateg" class="table">
+		<tr>
+			<th >Ime</th>
+		</tr>
+	</table>
+	<table id="tfilm" class="table">
+		<tr>
+			<th>Naziv</th> 
+			<th>Opis</th>
+			<th>Kategorija</th>
+			<th>Glumci</th> 
+			<th>Producent</th>
+			<th>Direktor</th>
+			<th>Jezik</th> 
+			<th>Drzava</th>
+			<th>Godina</th>
+			<th>Skor</th>
+		</tr>
+	</table>
+</body>
+</html>

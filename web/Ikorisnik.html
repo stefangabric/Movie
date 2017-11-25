@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Izmena korisnika</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/ikor.js"></script>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+<body>
+	<form action="http://localhost:8080/Osa/api/users/mer" method="POST">
+	<table class="tablee">
+		<tr><td align="right">Id</td><td><input type="text" name="id" id="id" readonly="readonly"></td></tr>
+		<tr><td align="right">Ime:</td><td><input type="text" name="ime" id="ime"></td></tr>
+		<tr><td align="right">Prezime:</td><td><input type="text" name="prezime" id="prezime"></td></tr>
+		<tr><td align="right">Korisničko ime:</td><td><input type="text" name="kime" id="kime" readonly="readonly"></td></tr>
+		<tr><td align="right">Lozinka:</td><td><input type="password" name="pass" id="pass"></td></tr>
+		<tr><td align="right">Ponovljena lozinka:</td><td><input type="password" name="repeatedPassword"></td></tr>
+		<tr>
+			<td align="right">Uloga:</td>
+			<td>
+				<select id="cat" name="cat">
+				</select>
+			</td>
+		</tr>
+		<tr><td></td><td><input type="submit" value="Dodaj"></td></tr>		
+	</table>
+	</form>
+	<br/>
+	<a href="Ameni.html">Povratak</a>
+</body>
+</html>

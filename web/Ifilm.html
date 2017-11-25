@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Izmena filma</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/ifilm.js"></script>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+<body>
+	<form method="POST" action="http://localhost:8080/Osa/api/movies/mer">
+	<table class="tablee">
+		<tr><td align="right">Naziv:</td><td><input type="text" id="naziv" name="naziv"></td></tr>
+		<tr><td align="right">Opis:</td><td><input type="text" id="opis" name="opis"></td></tr>
+		<tr><td align="right">Glumci:</td><td><input type="text" id="glumci" name="glumci"></td></tr>
+		<tr><td align="right">Producent:</td><td><input type="text" id="producent" name="producent"></td></tr>
+		<tr><td align="right">Direktor:</td><td><input type="text" id="direktor" name="direktor"></td></tr>
+		<tr><td align="right">Godina:</td><td><input type="text" id="godina" name="godina"></td></tr>
+		<tr>
+			<td align="right">Kategorija:</td>
+			<td>
+				<select id="kat" name="kat">
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="right">Zemlja:</td>
+			<td>
+				<select id="zem" name="zem">
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="right">Jezik:</td>
+			<td>
+				<select id="jez" name="jez">
+				</select>
+			</td>
+		<tr><td align="right">Id:</td><td><input type="text" name="id" id="id" readonly></td></tr>
+		<tr><td></td><td><input type="submit" value="Izmeni"></td></tr>		
+	</table>
+	</form>
+	<br/>
+	<a href="Ameni.html">Povratak</a>
+</body>
+</html>

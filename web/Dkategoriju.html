@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Dodavanje kategorije</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/kor.js"></script>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+<script src="js/kat.js"></script>
+</head>
+<body>
+	<form action="http://localhost:8080/Osa/api/categories/add" method="POST">
+	<table class="tablee">
+		<tr><td align="right">Naziv:</td><td><input type="text" name="naziv"></td></tr>
+		<tr><td></td><td><input type="submit" value="Dodaj"></td></tr>		
+	</table>
+	</form>
+	<br/>
+	<a href="Ameni.html">Povratak</a>
+</body>
+</html>

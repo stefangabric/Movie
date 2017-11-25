@@ -1,0 +1,110 @@
+.slikaKat{
+	 width: 200px;
+    height: 150px;
+}
+
+.oneProduct{
+    margin-top: 12px;
+    width: 77%;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 10px;
+    float: right;
+}
+
+
+#miniPic {
+    width: 200px;
+    height: 150px;
+}
+
+.filter {
+    float: left;
+    width: 19%;
+    margin-left: 15px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.oneOf {
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+.title {
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    width: 64%;
+    height: auto;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.picture {
+    float: left;
+    width: auto;
+}
+
+.detail {
+    padding: 5px;
+    width: 480px;
+    border-bottom: 2px solid gray;
+    float: right;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#detText {
+    color: black;
+    padding: 4px;
+}
+
+#btnDetail {
+    height: 20%;
+    background-color: royalblue;
+    width: 34%;
+    float: right;
+    border-radius: 10px;
+}
+
+#btnDetail a p {
+    color: white;
+}
+
+#priceDet {
+    background-color: white;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+.title a{
+    text-decoration: none;
+    color: black;
+}
+
+#btnDetail a{
+    text-decoration: none;
+}
+
+#btnDetail a p{
+    text-align: center;
+    font-size: 25px;
+}
+#price {
+    padding-right: 6px;
+	width: 29%;
+    height: 25px;
+    float: right;
+}
+
+

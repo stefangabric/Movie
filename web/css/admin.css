@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    
+
+    
+}
+
+html { 
+  background-image:url(../img/dark-website-backgrounds-10.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+	height: 75%;
+}
+#adminmeni{
+	list-style: none;
+    width: 75%;
+    height: 6%;
+    margin-left: 12%;
+    margin-top: 5%;
+    display: flex;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+}
+.opcijameni{
+	width: 12%;
+    height: 76%;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+    font-family: initial;
+    font-size: larger;
+	margin-left: 1%;
+}
+
+.apmeni{
+	background-color:black;
+	list-style:none;
+	width: 11%;
+    height: 15%;
+    position: absolute;
+    display:none;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+}
+.ppmeni{
+	
+	color:white;
+	margin-left: 0px;
+    display: list-item;
+    width: 99%;
+    height: 31%;
+    border-style: none;
+    border-bottom-style:solid;
+    border-radius: 5px;
+	
+	
+}
+#uitkor{margin-left: 9%;}
+#uikat{margin-left: 19%;}
+#uifilm{margin-left: 29%;}
+
+.menjanje{
+	list-style:none;
+	display:none;
+	width: 10%;
+    position: absolute;
+    background-color: black;
+    margin-top: 2.3%;
+    border-color:white;
+    border-style:solid;
+    border-radius: 5px;	
+    border-width: thin;
+}
+#korisnik{margin-left: 20%;}
+#kategorija{margin-left: 30%;}
+#film{margin-left: 40%;}
+#okorisnik{margin-left: 20%;margin-top:5%;}
+#okategorija{margin-left: 30%;margin-top:5%;}
+#ofilm{margin-left: 40%;margin-top:5%;}
+.podatak{
+	color: white;
+	border-style: none;
+    border-bottom-style:solid;
+    border-radius: 5px;
+	
+}
+
+.table{
+	display:none;
+	margin-top: 2%;
+    margin-left: 12%;
+    width: 75%;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 2px;
+}
+
+.table th{
+	border-right-style: outset;
+    color: white;
+    width: 5%;
+    border-width: thin;
+}
+
+.table tr td{
+	border-style: solid;
+    border-color: white;
+    border-width: thin;
+    color: white;
+    width: 5%;
+    border-width: thin;
+}
+.tablee{
+	color: white;
+}

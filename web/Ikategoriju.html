@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>Izmena kategorije</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/ikat.js"></script>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+
+</head>
+<body>
+	<form action="http://localhost:8080/Osa/api/categories/mer" method="POST">
+	<table class="tablee">
+		<tr><td align="right">Id:</td><td><input type="text"  name="id" id="id" readonly></td></tr>
+		<tr><td align="right">Naziv:</td><td><input type="text"  name="naziv" id="naziv" ></td></tr>
+		<tr><td></td><td><input type="submit" value="Izmeni"></td></tr>		
+	</table>
+	</form>
+	<br/>
+	<a href="Ameni.html">Povratak</a>
+</body>
+</html>

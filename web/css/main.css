@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    
+
+    
+}
+
+html { 
+  background-image:url(../slike/dark-website-backgrounds-10.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+header {
+    margin-top: 0;
+    border-bottom-color: white;
+    border-bottom-width: thin;
+    height: 25%;
+    width: 100%;
+}
+header nav {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    height: 66%;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px 10px;
+    border-width: thin;
+}
+header nav li {
+    height: 22%;
+    width: 9%;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: inline-block;
+    padding: 0 1%;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+#searchForm{
+    margin-left: 36%;
+    width: 36%;
+    margin-top: -3%;
+    padding: 0 1%;
+}
+#searchPolje{
+    height: 22 %;
+    width: 40%;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+#searchbtn{
+    width: 15%;
+    height:100%;
+
+}
+#searchimg{
+    height: 30%;
+    width: 117%;
+    margin-top: -9%;
+    margin-left: -11%;
+    margin-right: -21%;
+    margin-bottom: -14%;
+    background-image:url(../slike/search.png);
+
+}
+header nav li a{
+    list-style: none;
+	color: white;
+
+}
+#korpa{
+	margin-left: 40%;
+}
+.WSC{
+	margin-top: -10.6%;
+    margin-left: 49%;
+    position: absolute;
+    width: 6%;
+    height: 4%;
+}
+
+#content {
+    border-radius: 20px 20px 20px 20px;
+    margin-left:15%;
+	width: 60%;
+	height: 70%;
+	float: left;
+	padding: 3%;
+}
+
+#overlay {
+    width: 100%;
+    height: 50%;
+    top: 5%;
+    right: 0;
+}
+
+.arrows {
+    width: 10%;
+    height: 10%;
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    border-radius: 30%;
+    cursor: pointer;
+    float: left;
+    margin-top: 10%;
+}
+
+#imgDiv {
+    width: 35%;
+    height: 100%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+
+#tablica{
+    width: 35%;
+    height: 80%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+    display: inline-flex;
+	font-size: smaller;
+}
+#lopis{
+
+    width: 45%;
+    height: 100%;
+    }
+#dopis{
+
+    width: 55%;
+    height: 100%;
+    }
+.tabela{
+    list-style: none;
+    background-color:white;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    text-decoration: none;
+    height: 10%;
+    width: 100%;
+
+}
+
+#imgDiv img{
+    max-width:100%;
+    max-height:80%;
+    background-color: white;
+}
+
+#imgDiv p{
+	width: 100%;
+	height: 15%;
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+
+
+#noviProizvodi {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    width: 100%;
+    height: 55%;
+    padding: 1%;
+    color: black;
+    margin-left: 10px;
+    list-style: none;
+    border-radius: 5px;
+    display: inline-flex;
+    overflow: hidden;
+    
+}
+
+.previewDiv {
+	width: 12%;
+	height: 60%;
+	background: black;
+	border-radius: 10%;
+  	background-size: cover;
+	opacity: 0.7;
+	margin: 2%;
+
+	cursor: pointer;
+}
+
+
+/*  kategorije     */
+#kcontent{
+	list-style:none;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:15%;
+	width: 60%;
+	height: 70%;
+	float: left;
+	padding: 3%;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    display: flex;
+    
+
+}
+
+
+
+.kpreviewDiv{
+    width: 20%;
+    height: 40%;
+	border-radius: 10%;
+  	background-size: cover;
+	opacity: 0.7;
+	margin: 2%;
+    display: inline-block;
+	cursor: pointer;
+
+}
+.kimg{
+	width: 100%;
+    height: 90%;
+}
+.kimg img{
+	width: 100%;
+    height: 100%;
+}
+.knaziv{
+	background-color: white;
+	color:black;
+}
+
+#kekranis{
+	background-image: url("http://pcpress.info/wp-content/uploads/2012/07/NEC_EX231W_BK_LT1.jpg");
+	background-size: cover;
+}
+/* selektovan proizvod*/
+
+#kcontentB {
+    border-radius: 20px 20px 20px 20px;
+    margin-left:20%;
+	width: 60%;
+	height: 50%;
+	float: left;
+	padding: 3%;
+    display: inline-flex;
+}
+
+
+#imgDivB{
+    background-color: white;
+    width: 40%;
+    height: 67%;
+}
+#tablicaB{
+    width: 40%;
+    height: 67%;
+    background-color: blue;
+    display: inline-flex;
+}
+#lopisB{
+    width: 50%;
+    height: 137%;
+
+}
+#dopisB{
+    width: 50%;
+    height: 137%;
+
+}
+
+#links{
+	list-style-type: none;
+	display:none;
+    margin-left: 0px;
+    margin-top: -3%;
+    width: 50%;
+    height: 67%;
+    background-image: url(../slike/dark-website-backgrounds-10.jpg);
+    border-color: white;
+    border-style: double;
+    border-width: thin;
+    border-radius: 5px;
+}
+#pada{
+	
+	background-image: none;
+    margin-left: 21.8%;
+    width: 36%;
+    margin-top: 1.3%;
+    height: 102%;
+    border-style:none;
+    
+}
+.pmeni{
+	color:white;
+	margin-left: 0px;
+    display: list-item;
+    width: 99%;
+    height: 26px;
+    border-style: none;
+    border-bottom-style: double;
+    border-radius: 5px;
+}
+#kmeni{
+	display:none;
+	background-image: url(../slike/dark-website-backgrounds-10.jpg);
+	margin-left: 11%;
+    margin-top: -5.7%;
+    width: 10%;
+    height: 23.5%;
+    position:absolute;  
+    border-style: groove;
+    border-radius: 8px;
+    border-width: thin;
+}
+#klink{
+	list-style-type: none;
+	width: 100%;
+
+}
+.komp{
+	color:white;
+	margin-left: 0px;
+    display: list-item;
+    width: 99%;
+    height: 20px;
+    border-style: none;
+    border-bottom-style: double;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+
+
+#Sitem{
+	cursor:pointer;
+}
+#zakorpu{     
+	margin-top: 19.2%;
+    margin-left: -8.8%;
+    display: inline-table;
+    position: absolute;
+}
+#zakorpu input{
+	
+	width: 7%;
+}
+#korpabtn{
+	margin-left: 2%;
+    height: 119%;
+}
+
+
+/*    korpa     */
+#cont{
+	color: white;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+#cont th{
+	border-style: solid;
+    border-width: thin;
+}
+#cont td{
+	border-style: solid;
+    border-width: thin;
+	
+}
+#rac{
+	color: white;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+#rac th{
+	border-style: solid;
+    border-width: thin;
+}
+#rac td{
+	border-style: solid;
+    border-width: thin;
+	
+}
+#atributi{
+	color:white;
+	list-style:none;
+	position:absolute;
+}
+
+#Uatributi{
+	color:white;
+	list-style:none;
+	position:absolute;
+	margin-left:85%;
+}

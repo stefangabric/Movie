@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>Osa</display-name>
+    
+    <module>
+        <web>
+            <web-uri>Osa.war</web-uri>
+            <context-root>/Osa</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>Osa.jar</ejb>
+    </module>
+</application>

@@ -1,0 +1,9 @@
+/META-INF/
+/client/
+/dto/
+/entity/
+/jndi.properties
+/log4j.properties
+/messages/
+/service/
+/session/
